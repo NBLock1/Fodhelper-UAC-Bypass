@@ -30,9 +30,10 @@ public static void Main(string[] args)
         }
         else
         {
-        // call a function here even if bypass doesnt work
+         // call a function here
         }
     }
+      catch { } // forgot to add this
 }
 private static bool IsElevatedInstanceRunning()
 {
